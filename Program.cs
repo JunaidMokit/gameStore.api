@@ -1,6 +1,20 @@
+using GameStore.Api.Dtos;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World Junaid 8448834!");
+List<GameDto> games = [
+    new GameDto(1, "Elder Quest", "RPG", 59.99m, new DateOnly(2022, 5, 15)),
+    new GameDto(2, "Speed Racers", "Racing", 39.99m, new DateOnly(2021, 11, 3)),
+    new GameDto(3, "Battle Arena X", "Action", 49.99m, new DateOnly(2023, 2, 25)),
+    new GameDto(4, "Farm Life", "Simulation", 19.99m, new DateOnly(2020, 7, 10))
+];
+// GET/GAMES
+app.MapGet("games", () => games);
+
+// Get/games/1
+app.MapGet("games/{id}", (int id) => games.Find(game => game.Id == id));
+
+
 
 app.Run();

@@ -25,3 +25,4 @@ E:\.NET\Julio Casal\Test\GameStore.Api\obj\Debug\net9.0\refint\GameStore.Api.dll
 E:\.NET\Julio Casal\Test\GameStore.Api\obj\Debug\net9.0\GameStore.Api.pdb
 E:\.NET\Julio Casal\Test\GameStore.Api\obj\Debug\net9.0\GameStore.Api.genruntimeconfig.cache
 E:\.NET\Julio Casal\Test\GameStore.Api\obj\Debug\net9.0\ref\GameStore.Api.dll
+E:\.NET\Julio Casal\Test\GameStore.Api\obj\Debug\net9.0\GameStore.Api.sourcelink.json

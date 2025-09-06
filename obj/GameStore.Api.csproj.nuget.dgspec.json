@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj": {}
+    "E:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "e:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj": {
+    "E:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "E:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "e:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "E:\\.NET\\Julio Casal\\Test\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "e:\\.NET\\Julio Casal\\Test\\GameStore.Api\\obj\\",
+        "outputPath": "E:\\.NET\\Julio Casal\\Test\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
