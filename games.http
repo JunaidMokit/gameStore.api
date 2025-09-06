@@ -1,1 +1,15 @@
 GET http://localhost:5185/games
+
+###
+GET http://localhost:5185/games/3
+
+###
+POST http://localhost:5185/games
+Content-Type: application/json
+
+{
+   "name": "Mystic Valley",
+  "genre": "Adventure",
+  "price": 29.99,
+  "releaseDate": "2021-03-14"
+}
